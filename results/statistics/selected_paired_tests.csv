@@ -1,0 +1,16 @@
+family,metric,method_a,method_b,n_pairs,mean_a,mean_b,mean_diff_a_minus_b,paired_permutation_pvalue
+zero_shot,abs_spearman,VenusREM,ProSST-2048,217,0.5357198674417243,0.5225210688290297,0.013198798612694483,1.999960000799984e-05
+zero_shot,abs_spearman,ProSST-2048,ESM3,217,0.5225210688290297,0.48270664164868415,0.039814427180345655,1.999960000799984e-05
+zero_shot,abs_spearman,S3F_MSA,ESM3,217,0.5155920204594435,0.48270664164868415,0.03288537881075943,1.999960000799984e-05
+zero_shot,abs_spearman,ProSST-2048,Site_Independent,217,0.5225210688290297,0.37239354520979173,0.15012752361923803,1.999960000799984e-05
+single_to_higher,abs_spearman,MSA_Transformer_ensemble,additive_all_singles,11,0.4417100390723709,0.3421649365689778,0.09954510250339306,0.36328125
+single_to_higher,abs_spearman,GEMME,additive_all_singles,11,0.436709828259306,0.3421649365689778,0.09454489169032819,0.365234375
+single_to_higher,abs_spearman,ESM3,additive_all_singles,11,0.38983338365573145,0.3421649365689778,0.04766844708675358,0.71484375
+single_to_higher,abs_spearman,ProSST-2048,additive_all_singles,11,0.3844100102324344,0.3421649365689778,0.04224507366345654,0.724609375
+active_learning_round5,top1pct_found,diverse_ensemble:top_methods,random,84,0.75,0.5,0.25,0.001139977200455991
+active_learning_round5,top1pct_found,diverse_ensemble:top_methods,additive_lookup,84,0.75,0.47619047619047616,0.27380952380952384,0.0008999820003599928
+active_learning_round5,top1pct_found,ensemble_ucb:top_methods,zscore_linear:ESM3,84,0.7380952380952381,0.5952380952380952,0.14285714285714285,0.02877942441151177
+active_learning_round5,top1pct_found,ensemble_mean:top_methods,zscore_linear:ESM3,84,0.6785714285714286,0.5952380952380952,0.08333333333333333,0.24673506529869402
+pairwise_plm_random100,abs_spearman_higher,pairwise_plus_zscore:S2F_MSA,pairwise_residual_from_doubles,55,0.3546552871801041,0.3480679788871573,0.006587308292946813,1.999960000799984e-05
+pairwise_plm_random100,abs_spearman_higher,pairwise_plus_plm_ensemble,pairwise_residual_from_doubles,55,0.3532485316257859,0.3480679788871573,0.005180552738628582,3.999920001599968e-05
+pairwise_plm_random100,abs_spearman_higher,pairwise_plus_zscore:ProSST-2048,pairwise_residual_from_doubles,55,0.353318326544707,0.3480679788871573,0.005250347657549728,3.999920001599968e-05

@@ -1,0 +1,8 @@
+model,selection_policy,double_budget,n_rows,mean_abs_spearman_higher,mean_top1pct_recall_at_100,mean_pair_coverage
+additive_all_singles,none,0,11,0.3421649365689778,0.07601673487192456,0.0
+pairwise_residual_from_doubles,informative_pair_coverage,20,55,0.34624595756941823,0.07962189947651892,0.030070261655646788
+pairwise_residual_from_doubles,informative_pair_coverage,50,55,0.34564109391692893,0.0804835970206809,0.0710742292810186
+pairwise_residual_from_doubles,informative_pair_coverage,100,55,0.34610454927830037,0.07857492525251501,0.12605872956048725
+pairwise_residual_from_doubles,random_doubles,20,55,0.3375257158002219,0.07669523638528443,0.015836658447539956
+pairwise_residual_from_doubles,random_doubles,50,55,0.34351496931837927,0.07240524233836855,0.03989822610254664
+pairwise_residual_from_doubles,random_doubles,100,55,0.3472289235328262,0.07069634173684222,0.07925131677509926

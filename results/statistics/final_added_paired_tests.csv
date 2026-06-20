@@ -1,0 +1,4 @@
+family,mean_diff_abs_spearman,method_a,method_b,n_pairs,paired_permutation_pvalue
+reciprocal_sign_epistasis,-0.09854105124923429,VenusREM,additive_prediction,49,7.999840003199936e-05
+reciprocal_sign_epistasis,-0.10972559335797219,ProSST-2048,additive_prediction,49,9.99980000399992e-05
+reciprocal_sign_epistasis,0.011184542108737903,VenusREM,ProSST-2048,49,0.3518129637407252
