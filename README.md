@@ -2,7 +2,7 @@
 
 This repository contains the experiment and analysis scripts used in the project, together with the result files that are explicitly referenced by path fields in the corresponding supplementary table records.
 
-
+![Benchmark overview](pics/Overview.png)
 
 ## Project overview
 
@@ -18,6 +18,8 @@ The main analysis workflow covers:
 6. retrospective active learning for top-variant discovery;
 7. structure, alignment-depth and assay-level features used to build a recommendation map;
 8. statistical summaries.
+
+![Decision map](pics/Decisionmap.png)
 
 ## Folder layout
 
